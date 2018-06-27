@@ -10,8 +10,8 @@ exports.config = {
   baseUrl: "https://offroadcode.com/umbraco/",
   params: {
     login: {
-      username: "Pete",
-      password: "plebs election laminar shirk"
+      username: "[Your umbraco username]",
+      password: "[You password here]"
     }
   },
 
