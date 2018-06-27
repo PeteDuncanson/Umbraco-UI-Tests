@@ -16,7 +16,11 @@ First up run "npm install" so you have everything installed that we need for the
 
 Then we need to manually install some goodies too I'm afraid. To do that follow along with the [Setup guide for Protractor](http://www.protractortest.org/#/tutorial#setup). While your there feel free to have a quick read as its an awesome quick start.
 
-You should now have a Selenium Server up and running in one window, we now need another to run our actual tests in so open another Powershell or Command Prompt. Decide if you want to run V7 or V8 tests by changing directory into the folder of your choice (thats "cd V7" or "cd V8" if you've forgotten you commands) window and then type:
+You should now have a Selenium Server up and running in one window, we now need another to run our actual tests in so open another Powershell or Command Prompt. Decide if you want to run V7 or V8 tests (pro-tip, there aren't any V8 tests as yet so go with V7) these are split into folders for ease. Then we need to go edit some settings for that version. 
+
+Find the config.js file in the root of the version folder you want to run. Change the baseUrl, username and password fields to match those of an Umbraco instance you want to test against and save them (don't check these changes in though if you do). For now I've got it pointing to the Offroadcode website when I test but ideally we will soon be having a local site that is the same for all of use to test on that will be checked in some how.
+
+Back to that command propmt, change directory into the folder of your choice (thats "cd V7" or "cd V8" if you've forgotten you commands) then type:
 
     protractor config.js
 
