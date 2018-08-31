@@ -1,0 +1,12 @@
+{
+  "name": "umbraco-ui-tests",
+  "description": "A set of tests for Umbraco CMS V7 and V8",
+  "version": "0.0.0",
+  "author": "Pete Duncanson <pete@offroadcode.com> (http://offroadcode.com)",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "protractor": "~5.4.0"
+  }
+}

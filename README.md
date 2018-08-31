@@ -12,11 +12,11 @@ You can write Javascript (ideally with some knowledge of [ES6 sytax](http://es6-
 
 ## Getting setup
 
-First up run "npm install" so you have everything installed that we need for the project.
+Let me know what the issues with this. Sadly I've got everything installed on my machine already and not sure what I need to add to the packages.json to make it all work on your machine so let me know via the issues tracker and we can fix it for all :)
 
-Then we need to manually install some goodies too I'm afraid. To do that follow along with the [Setup guide for Protractor](http://www.protractortest.org/#/tutorial#setup). While your there feel free to have a quick read as its an awesome quick start.
+We need to manually install some goodies I'm afraid as they should ideally be globally available on your machine. To do that follow along with the few steps of the install for Protractor in the [Setup guide for Protractor](http://www.protractortest.org/#/tutorial#setup). While your there feel free to have a quick read as its an awesome quick start.
 
-You should now have a Selenium Server up and running in one window, we now need another to run our actual tests in so open another Powershell or Command Prompt. Decide if you want to run V7 or V8 tests (pro-tip, there aren't any V8 tests as yet so go with V7) these are split into folders for ease. Then we need to go edit some settings for that version. 
+Decide if you want to run V7 or V8 tests (pro-tip, there aren't any V8 tests as yet so go with V7) these are split into folders for ease. Then we need to go edit some settings for that version.
 
 Find the config.js file in the root of the version folder you want to run. Change the baseUrl, username and password fields to match those of an Umbraco instance you want to test against and save them (don't check these changes in though if you do). For now I've got it pointing to the Offroadcode website when I test but ideally we will soon be having a local site that is the same for all of use to test on that will be checked in some how.
 
